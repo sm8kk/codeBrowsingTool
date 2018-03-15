@@ -1,0 +1,3 @@
+find . -iname '*.c' -o -iname '*.cc' -o -iname '*.h' -o -iname '*.hpp' -o -iname '*.java*' -o -iname '*.cpp' -o -iname '*.def' -o -iname '*.ddl' -o -iname '*.my' -o -iname '*.sid' > cscope.files
+
+cscope -bRq -i cscope.files -f cscope.out
